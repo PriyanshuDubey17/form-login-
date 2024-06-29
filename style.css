@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+  
+justify-content: center; 
+align-items: center;
+}
+.formbox{
+   width: 50%;
+   max-width: 400px;
+   background-color: blueviolet;
+   border-radius: 10px;
+   padding: 20px 28px; 
+   margin-inline: 20px;
+}
+.formbox header h1 {
+    text-align: center;
+    color: brown;
+}
+.frombox form{
+    margin-block: 30px;
+
+}
+input{
+     width: 100%;
+    padding: 18px 16px; 
+    border: none;
+    background-color: aliceblue;
+    font-size: 16px;
+    margin: 12px 0px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 14px;
+
+}
+input[type="button"]{
+    margin-block: 24px;
+    background-color: rgb(206, 186, 224);
+    color: aliceblue;
+    transition: 4s;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: blue;
+
+}
+#nameField{
+    display: none;
+}
+.signup{
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+}
+.signup a:hover{
+    color: rgb(187, 19, 179);
+    text-decoration: underline;
+    text-underline-offset: 3.5px;
+}
